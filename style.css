@@ -1,316 +1,64 @@
-/* html,
-body {
-  position: relative;
+/* Minimal clean styles for the demo */
+html, body {
   height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f0f0f0;
+  color: #111;
 }
 
+/* Swiper container should fill width; height is controlled by slides */
 swiper-container {
   width: 100%;
-  height: 100%;
-}
-
-swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 900px;
+  margin: 20px auto;
+  display: block;
 }
 
 swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
 }
 
-.c{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    background: blue;
-} */ */
-
-/* html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-swiper-container {
-  width: 100%;
-  height: 100%;
-  background: #000;
-}
-
-swiper-slide {
-  font-size: 18px;
-  color: #fff;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 40px 60px;
-}
-
-.parallax-bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 130%;
-  height: 100%;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-}
-
-swiper-slide .title {
-  font-size: 41px;
-  font-weight: 300;
-}
-
-swiper-slide .subtitle {
-  font-size: 21px;
-}
-
-swiper-slide .text {
-  font-size: 14px;
-  max-width: 400px;
-  line-height: 1.3;
-} */
-/* 
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-swiper-slide img {
-  display: sw /swiper-slidek;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-body {
-  background: #000;
-  color: #000;
-}
-
-swiper-container {
-  width: 100%;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-swiper-slide {
-  background-size: cover;
-  background-position: center;
-}
-
-.mySwiper {
-  height: 80%;
-  width: 100%;
-}
-
-.mySwiper2 {
-  height: 20%;
-  box-sizing: border-box;
-  padding: 10px 0;
-}
-
-.mySwiper2 swiper-slide {
-  width: 25%;
-  height: 100%;
-  opacity: 0.4;
-}
-
-.mySwiper2 .swiper-slide-thumb-active {
-  opacity: 1;
-}
-
-swiper-slide img {
-  display: sw /swiper-slidek;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-
-swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-/* 
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-swiper-container {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
-}
-
-swiper-slide {
-  background-position: center;
-  background-size: cover;
-}
-
-swiper-slide img {
-  display: block;
-  width: 100%;
-}
-
-swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} 
-
-
-
+/* 3D cube styles */
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-  overflow: hidden;
+  gap: 24px;
 }
+
 .scene {
-  width: 200px;
-  height: 200px;
-  perspective: 600px;
+  width: 240px;
+  height: 240px;
+  perspective: 800px;
 }
+
 .cube {
   width: 100%;
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 6s infinite linear;
+  transition: transform 0.2s ease-out;
 }
+
 .face {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background: #ddd;
+  width: 240px;
+  height: 240px;
   border: 2px solid #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  overflow: hidden;
+  background: #ddd;
 }
-.front  { transform: translateZ(100px); }
-.back   { transform: rotateY(180deg) translateZ(100px); }
-.left   { transform: rotateY(-90deg) translateZ(100px); }
-.right  { transform: rotateY(90deg) translateZ(100px); }
-.top    { transform: rotateX(90deg) translateZ(100px); }
-.bottom { transform: rotateX(-90deg) translateZ(100px); }
+.front  { transform: translateZ(120px); }
+.back   { transform: rotateY(180deg) translateZ(120px); }
+.left   { transform: rotateY(-90deg) translateZ(120px); }
+.right  { transform: rotateY(90deg) translateZ(120px); }
+.top    { transform: rotateX(90deg) translateZ(120px); }
+.bottom { transform: rotateX(-90deg) translateZ(120px); }
 
-.face img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@keyframes rotateCube {
-  0%   { transform: rotateX(0deg) rotateY(0deg); }
-  100% { transform: rotateX(360deg) rotateY(360deg); }
-}
+.face img { width: 100%; height: 100%; object-fit: cover; }
